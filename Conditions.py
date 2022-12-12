@@ -85,3 +85,28 @@ if (ticket or vip) and registration:
     print("Acces authorized")
 else: 
     print("Acces not authorized")
+
+
+
+product_count= random.randint(0,50)
+
+if product_count >20:
+    print("Il y'a plus de 20 articles")
+    print("RAS")
+elif 5 < product_count <= 20:
+    print("Il y'a plus de 5 articles")
+    print("Alerte approvisionnement")
+elif 0 < product_count <= 5:
+    print("Il y'a plus de 0 articles")
+    print("Alerte rupture iminente")
+else:
+    print("Il n'a plus d'article")
+    print("Alerte rupture")
+
+
+
+product_count=6
+# équivalent d'un encadrement python
+if product_count >5 and product_count <=20:
+    print("Il y'a plus de 5 articles")
+    print("Il y'a 20 ou moins d'articles")
