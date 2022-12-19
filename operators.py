@@ -106,3 +106,10 @@ a=random.randint(0,1)
 b=random.randint(0,1)
 result = bool(a) and bool(b)
 
+print()
+
+fruits=['abricot','cerise','baie']
+result='ananas' in fruits
+print(result)
+result='cerise' in fruits
+print(result)
